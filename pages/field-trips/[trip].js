@@ -24,6 +24,7 @@ export default function Trip() {
   } = tripObject ? tripObject : "";
   const [liveStopArray, setLiveStopArray] = useState([]);
   const [seeAll, setSeeAll] = useState(false);
+  const [inputValue, setInputValue] = useState("");
 
   useEffect(() => {
     if (stops) {
@@ -36,6 +37,23 @@ export default function Trip() {
     const newStopArr = !seeAll ? stops : stops.filter((_, i) => i < 2);
     setLiveStopArray(newStopArr);
   };
+
+  const handleSearch = e => {
+    const searchInput = e.target.value;
+    setInputValue(searchInput);
+    const filteredArray =
+      stops &&
+      stops.filter(stop =>
+        stop.stopTitle.toLowerCase().includes(searchInput.toLowerCase())
+      );
+    setLiveStopArray(filteredArray);
+  };
+  const handleSearchClear = () => {
+    setInputValue("");
+    setLiveStopArray(stops.filter((_, i) => i < 2));
+    setSeeAll(false);
+  };
+
   return (
     <>
       {!tripObject ? (
@@ -64,7 +82,12 @@ export default function Trip() {
           </section>
           <div className="bx--grid bx--row">
             <div className="left-content-gang">
-              <SearchBar placeHolderText="Search stops" />
+              <SearchBar
+                handleSearchInput={handleSearch}
+                inputValue={inputValue}
+                handleSearchClear={handleSearchClear}
+                placeHolderText="Search by title"
+              />
             </div>
             <article className="main-content-gang">
               <div className=" bx--row">
