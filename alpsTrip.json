@@ -1,0 +1,50 @@
+{
+  "tripTitle": "This is the first Trip",
+  "tripLocation": "",
+  "tripStart": "",
+  "tripEnd": "",
+  "bannerImages": [
+    "https://res.cloudinary.com/nthnh/image/upload/v1573836155/knkmann/bg1_beids7.png"
+  ],
+  "mainImage": "https://res.cloudinary.com/nthnh/image/upload/v1573836155/knkmann/bg1_beids7.png",
+  "tripSummary": "This is the summary of the first trip out of many",
+  "tripLink": "",
+  "leadCoordinator": { "name": "", "imageUrl": "", "title": "", "url": "" },
+  "otherCoordinators": [
+    { "name": "", "title": "", "imageUrl": "", "url": "" }
+  ],
+  "stops": [
+    {
+      "stopTag": 3,
+      "stopTitle": "Stop 1",
+      "stopDate": "",
+      "stopSummary": "",
+      "stopContent": [
+        {
+          "textBlock": "The Planetary Group at the University of Freiburg is focused on Rock Mechanics research and study of tectonic processes which happen on earth and other planets in the solar system. We use modern modelling methods and software to study high velocity collision on planetary bodies. A list of major publications can be found here",
+          "otherContent": [
+            {
+              "contentUrl": "",
+              "contentDescription": ""
+            }
+          ]
+        },
+        {
+          "textBlock": "The Planetary Group at the University of Freiburg is focused on Rock Mechanics research and study of tectonic processes which happen on earth and other planets in the solar system. We use modern modelling methods and software to study high velocity collision on planetary bodies. A list of major publications can be found here",
+          "otherContent": [
+            {
+              "contentUrl": "",
+              "contentDescription": ""
+            }
+          ]
+        }
+      ],
+      "stopImages": [
+        {
+          "imageUrl": "",
+          "imageDescription": ""
+        }
+      ]
+    }
+  ]
+},

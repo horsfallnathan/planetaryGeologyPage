@@ -1,0 +1,189 @@
+// @import "../../node_modules/carbon-components/scss/globals/scss/style";
+
+$css--font-face: true;
+$css--helpers: true;
+$css--body: true;
+$css--use-layer: true;
+$css--reset: true;
+$css--typography: true;
+$css--plex: true;
+
+@mixin ntmax {
+  @media (min-width: 99rem) {
+    @content;
+  }
+}
+
+@import "../../node_modules/carbon-components/scss/globals/scss/theme";
+@import "../../node_modules/carbon-components/scss/globals/scss/feature-flags";
+@import "../../node_modules/carbon-components/scss/globals/scss/vars";
+@import "../../node_modules/carbon-components/scss/globals/scss/colors";
+@import "../../node_modules/carbon-components/scss/globals/scss/mixins";
+@import "../../node_modules/carbon-components/scss/globals/scss/layout";
+@import "../../node_modules/carbon-components/scss/globals/scss/layer";
+@import "../../node_modules/carbon-components/scss/globals/scss/spacing";
+@import "../../node_modules/carbon-components/scss/globals/scss/typography";
+@import "../../node_modules/carbon-components/scss/globals/scss/vendor/@carbon/elements/scss/import-once/import-once";
+@import "../../node_modules/carbon-components/scss/globals/scss/css--reset";
+@import "../../node_modules/carbon-components/scss/globals/scss/css--font-face";
+@import "../../node_modules/carbon-components/scss/globals/grid/grid";
+@import "../../node_modules/carbon-components/scss/components/ui-shell/ui-shell";
+@import "../../node_modules/carbon-components/scss/components/tile/tile";
+@import "../../node_modules/carbon-components/scss/components/button/button";
+@import "../../node_modules/carbon-components/scss/components/inline-loading/inline-loading";
+@import "../../node_modules/carbon-components/scss/components/search/search";
+
+.page-logo {
+  height: 2.5rem;
+  width: auto;
+}
+.menu-bar {
+  padding-top: 1rem;
+}
+
+main {
+  margin: 4rem 0;
+}
+// section {
+//   @extend .bx--grid;
+// }
+.container {
+  -webkit-transition: 0.11s ease;
+  transition: 0.11s ease;
+  position: relative;
+
+  & .banner-content {
+    padding-top: 0;
+    // padding-bottom: 0;
+    background: none;
+    height: 300px;
+  }
+
+  & .bx--grid {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+// .bx--grid {
+//   border: 1px solid #393939;
+// }
+.bx-img {
+  width: 100%;
+}
+@media (min-width: 66rem) {
+  .container .bx--grid {
+    padding-left: calc(12.5% + 1rem);
+    padding-right: calc(12.5% + 1rem);
+  }
+}
+@media (min-width: 99rem) {
+  .container .bx--grid {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+.container .bx--col-no-gutter {
+  padding: 0;
+}
+.bx--header {
+  @extend .bx--grid;
+  height: 4rem;
+}
+// a.bx--header__name {
+//   padding: 1rem 2rem 1rem 0;
+// }
+.haupt-banner {
+  // @extend .bx--grid;
+  height: 300px;
+  color: $white-0;
+}
+
+.inner-banner {
+  @extend .bx--grid;
+  height: 200px;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.news-box {
+  margin: $spacing-04 0;
+}
+.news-img {
+  width: 30%;
+}
+.news-content {
+  width: 70%;
+}
+h2 {
+  margin-bottom: $spacing-04;
+}
+h1 {
+  margin-bottom: $spacing-04;
+}
+h4 {
+  margin-bottom: $spacing-04;
+}
+.main-content-gang {
+  @extend .bx--col-lg-8;
+  margin-right: 0;
+  margin-left: auto;
+  padding: 0;
+  & p {
+    padding: $spacing-04 0;
+  }
+}
+.main-center-gang {
+  @extend .bx--col-lg-8;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  & p {
+    padding: $spacing-04 0;
+  }
+}
+.full-width-gang {
+  @extend .bx--row;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+.left-content-gang {
+  @extend .bx--col-lg-4;
+  margin-left: 0;
+  margin-right: auto;
+  padding: 0;
+}
+.mini-left-content-gang {
+  @extend .bx--col-lg-3;
+  margin-left: 0;
+  margin-right: auto;
+  padding: 0;
+}
+article {
+  padding-bottom: $layout-02;
+}
+section {
+  padding-top: $layout-04;
+}
+.content-image {
+  width: auto;
+  max-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu-button {
+  @extend .bx--header__action;
+  width: 4rem;
+  height: 4rem;
+}
+.nav-panel {
+  @extend .bx--header-panel;
+  top: 4rem;
+  & li:first-of-type {
+    margin-top: 1rem;
+  }
+}

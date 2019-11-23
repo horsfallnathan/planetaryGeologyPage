@@ -1,0 +1,26 @@
+{
+  "name": "pgpage",
+  "version": "1.0.0",
+  "description": "website for planetary group to show field trips and other news",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "nthnhrsfl",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "carbon-components": "^10.7.4",
+    "carbon-components-react": "^7.7.4",
+    "carbon-icons": "^7.0.7",
+    "next": "^9.1.3",
+    "next-images": "^1.2.0",
+    "node-sass": "^4.13.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "styled-components": "^4.4.1"
+  }
+}
