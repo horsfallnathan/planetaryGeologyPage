@@ -32,4 +32,12 @@ function findVal(object, key, count = 0, finalCount = 200) {
     );
   }
 }
-export { getUniqueID, checkForUndefined, findVal };
+
+const filterForObject = (rawObject, queryKey, queryValue) => {
+  const filteredObject = rawObject.filter(
+    item => item[queryKey] === queryValue
+  );
+  return filteredObject[0];
+};
+
+export { getUniqueID, checkForUndefined, findVal, filterForObject };

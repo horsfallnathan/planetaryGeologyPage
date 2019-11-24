@@ -46,7 +46,7 @@ export default function FieldTrips() {
         />
       </section>
       <section className="bx--grid bx--row">
-        {tripArray.map((trip, i) => {
+        {tripArray.map(trip => {
           return (
             <div className="bx--col-lg-4" key={getUniqueID()}>
               <NewsBox
@@ -54,7 +54,7 @@ export default function FieldTrips() {
                 imageUrl="mainImage"
                 title="tripTitle"
                 summary="tripSummary"
-                newsLink={`field-trips/${i}`}
+                newsLink={`field-trips/${trip.tripId}`}
               />
             </div>
           );

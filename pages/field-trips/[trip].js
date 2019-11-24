@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { PayloadContext } from "../../comps/payloadContext";
 import Layout from "../../comps/layout.js";
 import NewsBox from "../../comps/newsBox";
-import { getUniqueID } from "../../utils/helperFunctions";
+import { getUniqueID, filterForObject } from "../../utils/helperFunctions";
 import Loading from "../../comps/loading";
 import SearchBar from "../../comps/searchBar";
 
@@ -12,7 +12,9 @@ export default function Trip() {
 
   const router = useRouter();
   const { trip } = router.query;
-  const tripObject = trip ? payload.fieldTrips[trip] : undefined;
+  const tripObject = trip
+    ? filterForObject(payload.fieldTrips, "tripId", trip)
+    : undefined;
   const {
     tripTitle,
     tripSummary,
@@ -99,7 +101,7 @@ export default function Trip() {
                         imageUrl="mainImage"
                         title="stopTitle"
                         summary="stopSummary"
-                        newsLink={`stops/${trip}-${i}`}
+                        newsLink={`stops/${trip} ${stop.stopId}`}
                       />
                     </div>
                   );

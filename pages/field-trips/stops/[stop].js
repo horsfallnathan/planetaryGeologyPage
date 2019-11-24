@@ -3,7 +3,11 @@ import { PayloadContext } from "../../../comps/payloadContext";
 import Layout from "../../../comps/layout.js";
 import NewsBox from "../../../comps/newsBox.js";
 import { useRouter } from "next/router";
-import { getUniqueID } from "../../../utils/helperFunctions";
+import {
+  getUniqueID,
+  findVal,
+  filterForObject
+} from "../../../utils/helperFunctions";
 import Loading from "../../../comps/loading";
 
 export default function Stops() {
@@ -11,10 +15,14 @@ export default function Stops() {
   const router = useRouter();
   const { stop } = router.query;
 
-  const [trip, stopNum] = stop ? stop.split("-").map(x => Number(x)) : [];
+  const [trip, stopTrack] = stop ? stop.split(" ") : [];
+  const tripObject = trip
+    ? filterForObject(payload.fieldTrips, "tripId", trip)
+    : undefined;
+  const stopObject = tripObject
+    ? filterForObject(tripObject.stops, "stopId", stopTrack)
+    : undefined;
 
-  const stopObject = stop ? payload.fieldTrips[trip].stops[stopNum] : undefined;
-  const fieldTripTitle = trip && payload.fieldTrips[trip].fieldTripTitle;
   const {
     stopTitle,
     stopSummary,
@@ -22,7 +30,7 @@ export default function Stops() {
     stopImages,
     stopContent
   } = stopObject ? stopObject : "";
-  console.log(stop, stopObject);
+
   return (
     <>
       {!stopObject ? (

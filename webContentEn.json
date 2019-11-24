@@ -96,7 +96,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574201000/knkmann/iceLand/oc1/213_xdbape.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-14fb813b-4ea1"
         },
         {
           "stopTitle": "Stampar, Rows of Cinder Cones",
@@ -127,7 +128,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574201531/knkmann/iceLand/oc2/224_cbkhwx.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-d57d79c0-3257"
         },
         {
           "stopTitle": "Outcrop 3: Valahnjúkur, hyaloclastite mountain",
@@ -166,7 +168,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574202935/knkmann/iceLand/oc3/234a_cosxtm.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-f3e01a21-fa1c"
         },
         {
           "stopTitle": "Gunnuhver high temperature geothermal field",
@@ -197,7 +200,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574203192/knkmann/iceLand/oc4/244_sw7p5y.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-cc9b5b25-8fc7"
         },
         {
           "stopTitle": "Outcrop 5: Þorbjörn",
@@ -220,7 +224,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574349337/knkmann/iceLand/oc5/251_bbaeyw.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-4d7f9e4b-f013"
         },
         {
           "stopTitle": "Outcrop 6: Festarfjall",
@@ -247,7 +252,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574349481/knkmann/iceLand/oc6/262_hnlwok.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-1cae79e2-f037"
         },
         {
           "stopTitle": "Outcrop 7: Grænavatn",
@@ -274,7 +280,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574349678/knkmann/iceLand/oc7/273_hg64w8.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-cc28b764-ca11"
         },
         {
           "stopTitle": "Outcrop 8: Kleifarvatn and Sveifluhals geothermal field",
@@ -301,7 +308,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574349811/knkmann/iceLand/oc8/283_yshbbw.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-64915df4-5a52"
         },
         {
           "stopTitle": "Hellisheiði",
@@ -324,7 +332,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574350448/knkmann/iceLand/oc9/311_lydol1.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-14a1060a-49b9"
         },
         {
           "stopTitle": "Hike Hveragerdi + Hengill geothermal area",
@@ -355,7 +364,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574350601/knkmann/iceLand/oc10/323_w6fwdn.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-cfcf5ecd-43de"
         },
         {
           "stopTitle": "Overview of south Iceland seismic zone",
@@ -369,12 +379,8 @@
               "contentDescription": ""
             }
           ],
-          "stopImages": [
-            {
-              "imageUrl": "",
-              "imageDescription": ""
-            }
-          ]
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-62393e24-8e54"
         },
         {
           "stopTitle": "Þingvellir, Allmannagjá graben",
@@ -415,7 +421,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574351008/knkmann/iceLand/oc12/415_qbpodw.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-1dc31749-8634"
         },
         {
           "stopTitle": "Fridheimar greenhouse",
@@ -429,12 +436,8 @@
               "contentDescription": ""
             }
           ],
-          "stopImages": [
-            {
-              "imageUrl": "",
-              "imageDescription": ""
-            }
-          ]
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-5cccc2f9-84d4"
         },
         {
           "stopTitle": "Geysir geothermal field",
@@ -457,7 +460,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574351249/knkmann/iceLand/oc13/423_b51yq7.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-b24e7459-a977"
         },
         {
           "stopTitle": "Gullfoss",
@@ -480,7 +484,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574351535/knkmann/iceLand/oc15/433_hayr1j.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-57c21544-2f08"
         },
         {
           "stopTitle": "Flúðir",
@@ -494,12 +499,8 @@
               "contentDescription": ""
             }
           ],
-          "stopImages": [
-            {
-              "imageUrl": "",
-              "imageDescription": ""
-            }
-          ]
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-17649b48-d64e"
         },
         {
           "stopTitle": "Landeyjahöfn, overview Vestmannaeyjar",
@@ -526,7 +527,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574352228/knkmann/iceLand/oc16/516_qulpf4.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-6b90062e-eee5"
         },
         {
           "stopTitle": "Seljalandsfoss",
@@ -545,7 +547,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574352436/knkmann/iceLand/oc17/523_oftxtz.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-cd2aca96-1818"
         },
         {
           "stopTitle": "Skógafoss",
@@ -568,7 +571,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574352579/knkmann/iceLand/oc18/534_n8nzch.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-d151fae8-4b1c"
         },
         {
           "stopTitle": "Sólheimajökull",
@@ -591,7 +595,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574352795/knkmann/iceLand/oc19/544_b3nmsu.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-6a5139d1-d885"
         },
         {
           "stopTitle": "Dyrhólaey",
@@ -618,7 +623,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574352917/knkmann/iceLand/oc20/556_fafmhh.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-b8c8d95a-ad17"
         },
         {
           "stopTitle": "Reynisfjall Black beach",
@@ -641,7 +647,8 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574353088/knkmann/iceLand/oc21/561_fhslcy.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-4f2000a8-36cf"
         },
         {
           "stopTitle": "Reynisfjall Black beach",
@@ -664,11 +671,12 @@
               "imageUrl": "https://res.cloudinary.com/nthnh/image/upload/v1574353088/knkmann/iceLand/oc21/561_fhslcy.jpg",
               "imageDescription": ""
             }
-          ]
+          ],
+          "stopId": "stop-213cb7f0-12c8"
         }
-      ]
+      ],
+      "tripId": "trip-90150135-4884"
     },
-
     {
       "tripTitle": "Alps Profile",
       "tripLocation": "France, Switzerland and Germany",
@@ -712,14 +720,11 @@
               "contentDescription": "Water levels in the past."
             }
           ],
-          "stopImages": [
-            {
-              "imageUrl": "",
-              "imageDescription": ""
-            }
-          ]
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-fd5696c9-1486"
         }
-      ]
+      ],
+      "tripId": "trip-c6e996aa-c023"
     }
   ]
 }
