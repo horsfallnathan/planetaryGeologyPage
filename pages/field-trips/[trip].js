@@ -90,6 +90,13 @@ export default function Trip() {
                 handleSearchClear={handleSearchClear}
                 placeHolderText="Search by title"
               />
+              <button
+                className="bx--btn bx--btn--primary bx--btn--sm"
+                type="button"
+                onClick={handleSeeAll}
+              >
+                {seeAll ? "View less" : "View all"}
+              </button>
             </div>
             <article className="main-content-gang">
               <div className=" bx--row">
@@ -107,13 +114,6 @@ export default function Trip() {
                   );
                 })}
               </div>
-              <button
-                className="bx--btn bx--btn--primary bx--btn--sm"
-                type="button"
-                onClick={handleSeeAll}
-              >
-                {seeAll ? "View less" : "View all"}
-              </button>
             </article>
           </div>
           <section className="bx--grid">
@@ -129,6 +129,7 @@ export default function Trip() {
                     title="name"
                     summary="title"
                     newsLink={leadCoordinator.url}
+                    externalLink={true}
                   />
                 </div>
                 {otherCoordinators.map(person => {
@@ -140,6 +141,7 @@ export default function Trip() {
                         title="name"
                         summary="title"
                         newsLink={person.url}
+                        externalLink={true}
                       />
                     </div>
                   );

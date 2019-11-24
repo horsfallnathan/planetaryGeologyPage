@@ -42,7 +42,7 @@ export default function StartPage() {
                   </Tile>
                 </article>
                 <article className="main-content-gang">
-                  <div className="bx--col-lg-8">
+                  <div className="bx--col-lg-12">
                     <h2>{findVal(article, "articleTitle")}</h2>
                     {article.articleContent.map(content => {
                       return (

@@ -7,6 +7,10 @@ $css--use-layer: true;
 $css--reset: true;
 $css--typography: true;
 $css--plex: true;
+$ui-01: #ffffff;
+$ui-02: red;
+$ui-background: red;
+$shell-header-bg-01: red;
 
 @mixin ntmax {
   @media (min-width: 99rem) {
@@ -64,9 +68,7 @@ main {
     margin-right: auto;
   }
 }
-// .bx--grid {
-//   border: 1px solid #393939;
-// }
+
 .bx-img {
   width: 100%;
 }
@@ -113,7 +115,7 @@ main {
   margin: $spacing-04 0;
 }
 .news-img {
-  width: 30%;
+  // border: 1px solid $interactive-01;
 }
 .news-content {
   width: 70%;
@@ -131,37 +133,37 @@ h4 {
   @extend .bx--col-lg-8;
   margin-right: 0;
   margin-left: auto;
-  padding: 0;
-  & p {
-    padding: $spacing-04 0;
-  }
+  // padding: 0;
+  // & p {
+  //   padding: $spacing-04 0;
+  // }
 }
 .main-center-gang {
   @extend .bx--col-lg-8;
   margin-right: auto;
   margin-left: auto;
-  padding: 0;
-  & p {
-    padding: $spacing-04 0;
-  }
+  // padding: 0;
+  // & p {
+  //   padding: $spacing-04 0;
+  // }
 }
 .full-width-gang {
   @extend .bx--row;
   margin-left: auto;
   margin-right: auto;
-  padding: 0;
+  // padding: 0;
 }
 .left-content-gang {
   @extend .bx--col-lg-4;
   margin-left: 0;
   margin-right: auto;
-  padding: 0;
+  // padding: 0;
 }
 .mini-left-content-gang {
   @extend .bx--col-lg-3;
   margin-left: 0;
   margin-right: auto;
-  padding: 0;
+  // padding: 0;
 }
 article {
   padding-bottom: $layout-02;
@@ -186,4 +188,51 @@ section {
   & li:first-of-type {
     margin-top: 1rem;
   }
+}
+.news-content-tile {
+  padding: 1rem 0;
+  border: 1px solid $interactive-01;
+}
+
+$pLineHeight: 1.5rem;
+$pLineCount: 1;
+$bgColor: $ui-01;
+
+.news-content-text {
+  height: $pLineHeight * 4;
+  margin: $spacing-04 0;
+  padding: 0.5rem 1rem;
+}
+
+.news-content-title {
+  height: $pLineHeight * 2;
+  padding: 0 1rem;
+}
+@mixin multiLineEllipsis($pLineHeight, $pLineCount) {
+  overflow: hidden;
+  position: relative;
+  line-height: $pLineHeight;
+  max-height: $pLineHeight * $pLineCount;
+  text-justify: auto;
+  text-align: justify;
+  margin-right: -1rem;
+  padding-right: 1rem;
+  &:before {
+    content: "...";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.2rem;
+    background: $ui-01;
+  }
+}
+.news-summary {
+  @include multiLineEllipsis($pLineHeight: 1.5rem, $pLineCount: 3);
 }

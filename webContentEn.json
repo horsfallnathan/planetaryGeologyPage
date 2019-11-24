@@ -35,10 +35,9 @@
   ],
   "fieldTripBanner": "https://res.cloudinary.com/nthnh/image/upload/v1573836155/knkmann/bg1_beids7.png",
   "contactDetails": {
-    "contactText": "",
     "contact": {
-      "name": "Thomas Kenkmann",
-      "title": "",
+      "contactText": "To learn more about the Planetary Geology group at the University of Freiburg, or on how to participate in any trip, send a mail to Prof. Kenkmann",
+      "name": "Prof. Dr. Thomas Kenkmann",
       "website": "",
       "emailAdd": "",
       "image": ""
@@ -721,10 +720,1158 @@
             }
           ],
           "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
-          "stopId": "stop-fd5696c9-1486"
+          "stopId": "stop-ec44e189-be02"
+        },
+        {
+          "stopTag": 2,
+          "stopTitle": "Bärschwil - Gupf",
+          "stopDate": "09/17/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This little hill named \"Gupf\" is situated approximately 400 meters east of the little town \"Bärschwil\", on the eastern part of the Jura Mountains. Jura Mountains are the youngest folds in the Alps (upper Miocene to Pleiocene) and contributes the most external part of the Alpine Orogeny.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "The little hill is located on the middle of an East-West trending valley-like depression. The vegetated zones in the north and south sides have higher elevations and steeper slopes, meaning that the rocks forming higher elevations are more competent than the lower elevation, non-vegetated zones (Figure 2.2). Also these vegetated ridges on the northern and southern sides close-up the valley-like topography and meet on the west side, and it is known that the layers of the rocks were determined as dipping outward the valley on the previous studies.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "All these findings indicate that it is an anticline plunging through the west, causing depression on the west (Figure 2.2b) and culmination on the east (Figure 2.2a). This anticline belongs to folds of the Jura Mountains.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-82ea5122-9818"
+        },
+        {
+          "stopTag": 3,
+          "stopTitle": "Bärschwil - Gupf 2",
+          "stopDate": "09/17/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "Approximately 150 meters of the northeast of the 2nd stop, a box fold was observed (Figure 2.3). That box fold is belonging to the hanging wall of a thrust plane dipping towards S-SE. Box folds are products of compressional regimes. They occur in units that their layers are able to slip on each other.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-4a3370a3-4784"
+        },
+        {
+          "stopTag": "4a",
+          "stopTitle": "Büchloch",
+          "stopDate": "09/17/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop is located around 1.5 km north of the 3rd stop and 1 km north-northwest of the box fold observed. The outcrop consists of the horizontal layers of the St. Ursanne Formation. That means this location should belong to the footwall of the thrust plane mentioned at the previous stop.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "There also is a calc-sinter body that is formed by the participation of plants and algae. This rock-forming process is still ongoing.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-f86ea569-81e2"
+        },
+        {
+          "stopTag": "4b",
+          "stopTitle": "Büchloch",
+          "stopDate": "09/17/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "Around 50-100 meters south of the Stop 4a, a conjugate shear fault system was observed (Figure 2.4a). The accessible fault plane is oriented with 30/80 (having the same strike as the Upper Rhine Graben) and lineations are plunging with 24/2. The Strike-slip sense was determined as sinistral by touching to the surface (Figure 2.4b). Brownish colors on the outcrop surface are probably caused by weathering and fault gouge. A small brecciated zone can also be seen on the junction of two fault planes.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-a0c00947-da97"
+        },
+        {
+          "stopTag": 5,
+          "stopTitle": "Choindez",
+          "stopDate": "09/17/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop consists of Middle Jurassic limestones interlayered with clays and marls which is typical for flexural folding. The stop is located on one of the anticlines belonging to 3-4 W/SW-E/NE trending folds. This anticline has experienced an erosion process called Klus. Klus is a german terminology used for the morphological structure formed by the erosion of an anticline perpendicular to its fold axis through the neighbor syncline.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-d688dbd0-fa70"
+        },
+        {
+          "stopTag": 6,
+          "stopTitle": "Moutier",
+          "stopDate": "09/17/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This stop is located in the middle of another anticline approximately 3 km S-SW of the previous stop, and Klus can be easily seen from this location (Figure 2.5). After reaching the southern flanks of the anticline by walking around 100 meters south, the orientation of the layers was measured as 170/60 (Figure 2.5b) and a kink indicating the box folding was observed above the measured layers.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "There were also 2 important observations on the external rocks: stylolite (Figure 2.5c) and slicolite (Figure 2.5d). Stylolites occur on limestones experiencing dissolution under stress, and the growth direction of the teeth shows the s1 direction. Stylolites are very important strain indicators that can be used to calculate the stress history.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "Slicolites are the combination of the slickensides and stylolites. The important fact about slicolites is that the shear sense determination by touching the surface works opposite to the conventional test. Because the surface we touch is filled by dissolved minerals causing the formation of flipped texture. In other words, the direction that is harder to slide our hand shows that this block we are touching has moved to the opposite direction.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-ad45b622-609c"
+        },
+        {
+          "stopTag": 7,
+          "stopTitle": "Court",
+          "stopDate": "09/17/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "The last stop of 2nd day is around 3 km southwest of the Stop 6, and again is situated on an anticline, but northern flanks. The rocks are containing intraclastic, bioclastic and some layers of oolitic limestones belonging to Reuchenette Formation (Figure 2.6a). From this point, we walked through south until an old tunnel and observed the change in the orientation of the layers indicating anticline.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "Figure 2.6b illustrates the thin-skinned tectonics in the region forming the folds of the Jura Mountains. Subduction of the crystalline basement through south causes shortening on the thin upper-crust, thus, folds occur.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-059a677c-dbbc"
+        },
+        {
+          "stopTag": 8,
+          "stopTitle": "Roggwil Quarrz",
+          "stopDate": "09/18/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop consists of almost flat-lying Lower Freshwater Molasse units belonging to the Foreland. Layers have various thicknesses with greyish-whitish to reddish-brownish colors, dominated by siliciclastic materials, and product of fluvial deposition of a meandering river (Figure 2.7).",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "Finer grained layers with reddish-brownish colors belong to lower energy environment so that inner bank, and coarser layers are of higher energy outer bank of the river. Lateral changes in the thicknesses correspond to the fluvial type of deposition.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-f6decf81-35e6"
+        },
+        {
+          "stopTag": 9,
+          "stopTitle": "Wolhausen",
+          "stopDate": "09/18/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop on the coast of the River Kleine Emme exposes Upper Freshwater Molasse units in the Foreland basin consisting limestones, conglomerates and sandstones. Sandstone layers show cross-bedding. These units are formed by alluvial deposition of a braided river.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "While upward fining is observed in small scales (decimeters to half a meter), upward coarsening to conglomerates was seen on the outcrop.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-e7269915-8bc1"
+        },
+        {
+          "stopTag": 10,
+          "stopTitle": "Malters",
+          "stopDate": "09/18/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "The limestone layers are oriented with 155/80 in this valley. While walking towards N/NW, grain sizes get coarser to conglomerates which are stratigraphically forming younger layers. Seeing older units in dip direction means those units are overturned. Shortened fossils prove the stress history in the units.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-7adcb14f-9d7c"
+        },
+        {
+          "stopTag": 11,
+          "stopTitle": "Lauerzersee",
+          "stopDate": "09/18/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This is the region where the term Klippen was invented by Albert Hyme in 1900. These allochthonous nappes were unfortunately not well seen exposed due to cloudy weather. Thrusting occurs from south to north, and higher tectonic position show longer distance transported.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-fea93289-9115"
+        },
+        {
+          "stopTag": 12,
+          "stopTitle": "Sisikon",
+          "stopDate": "09/18/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "The rocks across the lake are Cretaceous to Jurassic age limestones. SW dipping fault plane and two nappes can be seen on this outcrop (Figure 2.9). Upper nappe that has come from further south than the lower nappe named Axen is named Dressberg Nappe.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-5c52b4dd-1fe3"
+        },
+        {
+          "stopTag": 13,
+          "stopTitle": "Flüelen Camping Site",
+          "stopDate": "09/19/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "The outcrop contains sandstone, sillstone and mudstone layers belonging to flysch deposits. Recumbent faults and zigzag faults seen on the outcrop are the consequence of thrusting Axen nappe over north Helvetic Flysch.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-e8ab2b88-06c8"
+        },
+        {
+          "stopTag": 14,
+          "stopTitle": "Erstfeld",
+          "stopDate": "09/19/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This stop was close to the northern gate of the Gotthard Tunnel. Gotthard Tunnel is a 57 km long 2-way railway tunnel. It is made of one 9 meters wide tube for each direction by the german tunneling company Herrenknecht. Total drilled tunnel length reaches up to 150 km by taking service, maintenance and emergency tunnel into account. The project started in 1999 and completed in 2016, before the scheduled time.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "The outcrop we see on the east side is formed by Triassic parautochthonous dolomitic layers dipping towards the south.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-ae93c0e1-926b"
+        },
+        {
+          "stopTag": 15,
+          "stopTitle": "Teufel's Schlucht (Devil's Pass)",
+          "stopDate": "09/19/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This valley exposes gneiss of Aar massive containing feldspar, biotite, albite, muscovite and quartz. Both foliation and lineation could be observed on the rocks. Foliation was measured as 150/85, while the value for lineation was 142/80. That means, if we want to make and thin section out of this rock, we should choose a plane perpendicular to the foliation and parallel to the lineation, thus, a cutting plane with the orientation of around 52/90. Also, some sub-simple shear indicators such as strain shadows were observed in some samples extracted.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "This region is being uplifted by 0.4-0.8 mm every year. That uplift is controlled by critical taper theory. Due to erosion, uplift occurs to satisfy the critical taper angle.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-7abd984e-02ab"
+        },
+        {
+          "stopTag": 16,
+          "stopTitle": "Bürglen",
+          "stopDate": "09/19/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop forms monotonous sandstone layers interlayered with silt and mudstones that are flysch deposits. The outcrop nicely shows the Bouma Sequence and load casts under the sandstone layers (Figure 2.11). On the SW side of the outcrop, the layers are folded by a vergent fault. Fold axis was measured as 90/10, and fold axial plane was measured as 160/50.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "Micas in the rocks formed by clay, silicate, aluminum minerals that have experienced pressure due to subduction. Such a pressure to form micas needs couple of km depth (10-15 km or less).",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-deddde85-6c86"
+        },
+        {
+          "stopTag": 17,
+          "stopTitle": "Klausen Pass",
+          "stopDate": "09/19/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "On the north side of the road, there were reddish-brownish colored, very fine laminated, 52/10 oriented, terrestrial shales observed. Those shales belong to Permian aged Verrucano Formation. This outcrop forms the base of Axen Nappe. Usually, the nappes are expected to dip towards the opposite direction to the foreland. However, in this case, this is dipping towards foreland due to external massives.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "When we crossed the road to the south, we observed porous, Triassic aged dolomites of Helvetic. The shape of the pore spaces is formed by dissolution of gypsum.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-24dd3a44-e4ff"
+        },
+        {
+          "stopTag": 18,
+          "stopTitle": "Urnerboden",
+          "stopDate": "09/19/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "The view of an u-shaped valley can nicely be seen in this location. U-shape valleys are formed by glacier incision (Figure 2.12). Due to glacial melting, erosion affects all the surface of the valley, contrary to the v-shaped valleys formed by the incision of water. Glacier melting also causes cirque on the upslope of the valley which we have seen on the way from Klausen Pass to this stop. Different slope angles at its sides are caused by the orientation of the layers.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-ba8c0254-0f07"
+        },
+        {
+          "stopTag": 19,
+          "stopTitle": "Walensee",
+          "stopDate": "09/20/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "When we look across the lakeWalensee (north side), so-called Amden double-syncline was seen. This double-syncline is named after the little village Amden situated on the core of the western syncline. The rocks forming the syncline are Lower Cretaceous aged limestones named Schrattenkalk. This nappe is the tectonically highest nappe called  Säntis-Churfirsten Nappe that has the longest distance of overthrusting.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-637fed33-5f2c"
+        },
+        {
+          "stopTag": 20,
+          "stopTitle": "Gäudig",
+          "stopDate": "09/20/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "We reached this little hill by walking around 1 km after taking the cable car from Amden. During this walk, we observed till deposits along the way. From this point, we could see the mountains surrounding the Walensee. The highest peak on the Figure 2.13 is the summit of Mürtschtock. This kind of summits with steep and sharp flank on different sides called Nunatak. Also the valley seen on the left of Figure 2.12 is an u-shaped valley.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-4c0bd405-9bdb"
+        },
+        {
+          "stopTag": 21,
+          "stopTitle": "Gäudig 2",
+          "stopDate": "09/20/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "After walking approximately 150 meters from the previous stop, beige to brownish colored sandstone and siltstone layers were exposed. Dark-colored, curvy structures on the layer surfaces are the later alteration indicating manganese and iron precipitation. These units are the Cretaceous aged flysch deposits of the penninic nappes. This flysch is older than the flysch deposits observed before due to its high tectonic position indicating that it has thrusted from a longer distance from the south.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-ebd47eff-4a2e"
+        },
+        {
+          "stopTag": 22,
+          "stopTitle": "Hinter Höhi",
+          "stopDate": "09/20/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "We see the Mürtschen Nappe and Säntis-Churfirsten Nappe on top of that at around 1400 meters southeast of this stop. The depression between two mountains exposes flysch deposits.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-1ad08c0f-5c5d"
+        },
+        {
+          "stopTag": 23,
+          "stopTitle": "Hinter Höhi 2",
+          "stopDate": "09/20/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop exposes lower Cretaceous aged, Kieselkalk, Drusberg Formation, and Schrattenkalk (older to younger). These units belong to the northern Helvetic. All 3 units are formed by limestones, while Kieselkalk is also having chert modules.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-4559a721-f9b6"
+        },
+        {
+          "stopTag": 24,
+          "stopTitle": "Hinter Höhi 3",
+          "stopDate": "09/20/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "We walked around 1200 meters by surrounding the same units seen at the previous stop. An external plot here consists of cherted fossil shells.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-3af0e0bf-77b9"
+        },
+        {
+          "stopTag": 25,
+          "stopTitle": "Vordermatt",
+          "stopDate": "09/20/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "Here we started to see conglomerate layers with the orientation of 160/55. Conglomerates are made of 1 cm to 10-15 cm grains with an average of 5-8 cm. Some of the pebbles belong to the crystalline basement. The official terminology for this rock is polymict conglomerate due to its pebbles from more than one origins. These units belonging to the sub-alpine molasse is locally called Nagelfluh which has the lowest tectonic position in Europe. The formation of these units has been done by one of the biggest fluvial systems in the Alps called Speer River. Previous studies show that these units are not laterally continuous indicating an alluvial fan environment.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "On the way to the next stop, these units are started to be interlayered with sandstones suggesting that they probably belong to Lower Freshwater Molasse.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-1f0f3295-b5a5"
+        },
+        {
+          "stopTag": 26,
+          "stopTitle": "Oberchäseren",
+          "stopDate": "09/20/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This summit has a general view of all units that we have observed this day. We came here from the southeast by observing the first Helveticum, its flysch deposits and finally, the Sub-Alpine Molasse thrusted by Helveticum. The relationship can clearly be seen at this point.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-9fefe7cb-b03b"
+        },
+        {
+          "stopTag": 27,
+          "stopTitle": "Amden",
+          "stopDate": "09/20/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop exposes flysch deposits consist of fine-grained wavy layers and sandstones containing carbonate.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "After walking down around 200-300 meters, the contact between limestones and flysch deposits was observed. These flysch deposits contain glauconitic sandstones.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "Further down, completely chaotic flysch deposits with shear indicators were observed. This much chaotic flysch deposits containing various exotic features called \"Wild Flysch\" (Figure 2.16).",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-5254b295-8991"
+        },
+        {
+          "stopTag": 28,
+          "stopTitle": "Klöntal",
+          "stopDate": "09/21/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop represents the deposits of a landslide forming the Saggberg located on the south. This landslide has occurred 8000-10000 years ago after the glacial period by accumulating and blocking the side valley. This event has formed the lake Klöntalersee. On the deposits we observed, stratigraphy is mostly intact, and the material is mainly shattered. The main cause of the landslide was the destabilization of the slopes due to deglaciation.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-562c23ab-19ea"
+        },
+        {
+          "stopTag": 29,
+          "stopTitle": "Lochsite",
+          "stopDate": "09/21/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "Lochsite is 24th location of the Geopark Sardona. This outcrop represents one of the best razor-sharp thrust planes can be ever seen (Figure 2.17). The fault plane is oriented by 10/10 (dipping towards N/NE). Because of its dipping towards the north, it was thought to be a gravitational fault. However, it is a N-NW thrusting nappe that is transported around 50 km and tilted afterward. Overlying units belong to Verrucano Formation.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "On the coast of the river that is at the other side of the road, blocks of the Verrucano Formations were observed. These blocks are layered fanglomerates (conglomerates that are containing both angular and rounded pebbles) with greenish to reddish colors and grain sizes between 1 to 4 cm.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-47e3da95-b1b0"
+        },
+        {
+          "stopTag": 30,
+          "stopTitle": "Elm",
+          "stopDate": "09/21/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "Tschinggalhörner (2850 m) which was seen 4 km away to the southeast from this stop (Figure 2.18). The thrust plane belonging to the Glanar Nappe was observed below Tschinggalhörner at 2500 meters.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "This stop also located on the landslide deposits of the Elm Landslide. This landslide was triggered by human activities in 1881. Runout distance has reached up to 800-1000 meters. The landslide has triggered by extraction of slates that caused the opening of fractures. No one has realized the fractures and with the influence of rainfall, frictional coefficient of the landslide plane decreased dramatically causing a huge landslide.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-bd687a4e-03f2"
+        },
+        {
+          "stopTag": 31,
+          "stopTitle": "Walenstadt",
+          "stopDate": "09/21/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "Sandstones interlayered by mudstones are typical for Dogger, and orientated with 31/30. Brownish minerals are called goethite. East side of the Amden Double-Syncline can be seen across the lake. The outcrop across the lake shows Glanar, Mürtschen and Säntis-Churfirsten nappes and recumbent folds.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-4ac6c429-82ae"
+        },
+        {
+          "stopTag": 32,
+          "stopTitle": "Pfäfers",
+          "stopDate": "09/21/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This valley we have observed is the Alpinrhein section of the River Rhine. The mountains we were seeing are Austro-Alpines. On the northwest side, Helvetic nappes are dipping under the Austro-Alpines.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "External massives show culminations and depressions along their axes. The Helvetic system is not seen on the eastern side of the Alpinrhein. Because there was a convergence between the European plane and Adriatic basement with around N-S compression. Later on, Adriatic basement rotated counter-clockwise and pushed more in the direction of around NW-SE. Because of this process, the west side of the Alps has uplifted more, completed by exposing on the west (culmination), and staying under Austro-Alpine (depression) on the east.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-166397bc-ee7e"
+        },
+        {
+          "stopTag": 33,
+          "stopTitle": "Tamina Gorge",
+          "stopDate": "09/21/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "External massives show culminations and depressions along their axes. The Helvetic system is not seen on the eastern side of the Alpinrhein. Because there was a convergence between the European plane and Adriatic basement with around N-S compression. Later on, Adriatic basement rotated counter-clockwise and pushed more in the direction of around NW-SE. Because of this process, the west side of the Alps has uplifted more, completed by exposing on the west (culmination), and staying under Austro-Alpine (depression) on the east.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-d417de3c-9fa3"
+        },
+        {
+          "stopTag": 34,
+          "stopTitle": "Domat/Ems",
+          "stopDate": "09/22/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This region contains plenty of hills called \"Toma Hills\" and is the type locality for these features (Figure 2.20). The valley we see has an SW-NE strike. Tomahills are mostly coming from the northern cliffs. That is known by the materials that Toma Hills contain are the same materials as the northern cliffs. Northern cliffs are containing Helvetic and southern cliffs composed of Penninic materials.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "We see more horizontal layering on the southwestern partthan the northeasternparts. When we follow the layers through the northeast we see that the layers are almost oriented as the slope of the topography, and there are translational landslide features. When we look through the northeast, where the layers are a bit more horizontally oriented than the slope of the topography, rotational mass movements are seen.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "In conclusion, these toma hills are formed by the erosion of these landslide deposits accumulated in the valley by the braided river.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-e1a7b557-ba91"
+        },
+        {
+          "stopTag": 35,
+          "stopTitle": "Tamins Landslide",
+          "stopDate": "09/22/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "After driving a bit more to the west from the last stop, we see the scarpment of the Tamins Landslide having 1-1.5 km3 of volume.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-42f06d4c-0856"
+        },
+        {
+          "stopTag": 36,
+          "stopTitle": "Bonaduz",
+          "stopDate": "09/22/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop exposes Bonaduz Gravels containing poorly sorted, both angular and rounded, and 0.5 to 15 cm grain sizes. There was a big lake formed by the Flims Landslide 9400 years before. Incision started 1000 years after the lake formed (8400 years before) and started to erode the natural dam with chaotic fluxial processes resulted in the destruction of the Flims dam and flash floods. The former lake named Ilanz Lake and had 23-34 km2 of maximum surface area. The pebbles are belonging to both Penninic and Helvetic systems.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-4f300289-7053"
+        },
+        {
+          "stopTag": 37,
+          "stopTitle": "Cauma",
+          "stopDate": "09/22/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This stop comprises all the observations of landslide deposits of the Flims Landslide until the next stop. In the very beginning, the blocky and chaotic boulders with different orientations are observed. Those boulders belong to the Helvetic Nappes that are wasted during the Flims event. On the way down there are small, meter-sized swampy pits indicating that the layers of the mass are impermeable. Around a kilometer down there is a bigger scale of these swamps occurred by deposition of the dead lichens. Further down after passing the Caumasee, the walls of the Alpinrhine are exposed with earthpyramide structures (Figure 2.21). These structures indicate that there is pulverization on the rocks while more resistant blocks still remain.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-eb3c088c-6e82"
+        },
+        {
+          "stopTag": 38,
+          "stopTitle": "Conn",
+          "stopDate": "09/22/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "At the end of hiking, we were able to see the general view of the landscape from a viewing platform. In conclusion, the deep incision has occurred due to the rocks that have been highly deformed during the destructive transportation process. That also makes the rocks pretty heterogeneous. Scale invariance fracturing meaning that the same fracturing textures in various scales is also typical for this kind of deformations.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-427cecd7-3518"
+        },
+        {
+          "stopTag": 39,
+          "stopTitle": "Quarry Berkley",
+          "stopDate": "09/22/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop exposes a huge breccia. The major mass seems to be a part of the limestones of the Helvetic Nappes. Fragments on the body are angular. Jigsaw pattern makes the outcrop stable to carry itself while it not resistant extraction.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-d79ee094-0164"
+        },
+        {
+          "stopTag": 40,
+          "stopTitle": "Versam Gorge",
+          "stopDate": "09/22/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop consists of black-colored, pulvarized, thin, interbedded layers. Layerings are intact. Pulverization caused by siesmic shaking. Seismic shaking causes acoustic fluidization causing this kind of features.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-408578f3-c465"
+        },
+        {
+          "stopTag": 41,
+          "stopTitle": "Rhäzüns",
+          "stopDate": "09/23/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "The outcrop represents calcerous mica schists with greenschist facies. Schists have thick quartz veins. The local name of these units is Bündnerschiefer (Figure 2.22). Bedding orientation was measured as 90/40. These rocks are a part of northern Penninicum.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-7ac05447-0ab4"
+        },
+        {
+          "stopTag": 42,
+          "stopTitle": "Viamala",
+          "stopDate": "09/23/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "Bündnerschiefer has been incised by water forming this valley. Bündnerschiefer is not a very competent material to resist against this kind of linear fluvial incision. On top of these units, there is Penninic Flysch. Layers dip with 50/30 in this outcrop. This valley was thought to be formed in interstadial due to moraine findings in the valley.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-de98e4e0-a3a0"
+        },
+        {
+          "stopTag": 43,
+          "stopTitle": "Brienz",
+          "stopDate": "09/23/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop represents greenschist and serpentinite, and Austro-Alpine rocks above. Greenschists containing carbonate and mica are cut by thick quartz veins. The large boulder seen belongs to the tectonic melange.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-88123411-fec4"
+        },
+        {
+          "stopTag": 44,
+          "stopTitle": "Bella Luna",
+          "stopDate": "09/23/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop expose rhyolites containing epidote, quartz and feldspar.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-668f5af6-b92a"
+        },
+        {
+          "stopTag": 45,
+          "stopTitle": "Marmorera",
+          "stopDate": "09/23/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop is on the dam of the Lake Marmorera. The rocks with greenschist facies were nicely exposed with strong foliations on the northeast side of the road. Schists contain chlorite biotite, amphibole, and albite-rich plagioclase. These rocks belong to Southern Penninic ophiolites that has been experienced metamorphosis. Pillow lavas are still barely seen when looked carefully.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-5afbad5b-faf7"
+        },
+        {
+          "stopTag": 46,
+          "stopTitle": "Marmorera 2",
+          "stopDate": "09/23/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "The external blocks in this quarry show very good radiolarites. Radiolarite forms in deep marine environments. Carbonates cannot form below 4000 meters due to their mineral system’s behavior under these pressures. There also were ophicalcite textures containing marble and serpentine observed.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-89f3a8a3-1842"
+        },
+        {
+          "stopTag": 47,
+          "stopTitle": "Julierpass",
+          "stopDate": "09/23/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "Julierpass is 2290 meters high pass connecting two sides of the peaks that are separating Rhine and Danube Catchments. The rocks exposed here are strongly foliated metagranites containing quartz, feldspar, and altered biotite. These units belong to the crystalline nappe of the Austro-Alpine called Err-Bernina Nappe.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-768521df-be9d"
+        },
+        {
+          "stopTag": 48,
+          "stopTitle": "Silvaplana",
+          "stopDate": "09/24/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This lake is one of the natural chain of lakes in the region. This chain of lakes has been formed by Engadin Lineament that has a sinistral shear sense. This location is exactly on the transition between pro-wedge and retro-wedge. This region is also important because of separating 3 water catchment areas and called Triple Point. This triple point separates the water catchments to the River Rhine (to the North Sea), the River Danube (to the Black Sea), and the River Po (to the Mediterranean Sea).",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-866059ca-3d14"
+        },
+        {
+          "stopTag": 49,
+          "stopTitle": "Val di Forno",
+          "stopDate": "09/24/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This river forms terraces on both sides indicated that it had different deposition speeds. Higher terraces correspond to older units, while the lower ones are corresponding more recent deposits. The rocks on the outcrop gneiss. The foliation is oriented with 5/42 and has S-L deformation meaning that the lineations are parallel to the foliation planes. These units belong to the Margna Nappe of the Penninic System.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-e4b7e432-039f"
+        },
+        {
+          "stopTag": 50,
+          "stopTitle": "Lägh da Cavloc",
+          "stopDate": "09/24/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "There are a couple of nappes seen in this region which structurally does not make sense. But their plunge through east with approximately 45deg should be considered to understand the situation. So the nappes actually have a vertical relationship between each other. Despite the fact that, there is no alpine metamorphism seen in the Southern Alps, this region we see contact metamorphism due to the Bergel Intrusion.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-d192702b-84eb"
+        },
+        {
+          "stopTag": 51,
+          "stopTitle": "Plan Canin",
+          "stopDate": "09/24/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This is a big dry plane of a braided river system. The ground is full of whitish colored, well rounded, coarse gravel to block-sized rocks that are coming from Berge Tonalite. The presence of foliation and ribbons indicate the syn-orogenic intrusion. Foliation is seen as idiomorphic ferocrystals on magmatic rocks.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-d5816196-8265"
+        },
+        {
+          "stopTag": 52,
+          "stopTitle": "Lago di Mezzola",
+          "stopDate": "09/24/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This stop is in an active quarry. The rocks extracted here contain biotite, feldspar, quartz, epidotes with very good foliation and lineation on foliation planes. These rocks belong to the Bergel Intrusion. Their strong foliation indicates the syn-orogenic intrusion.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "Greenish-whitish colored blocks contain muscovite, quartz, and hornblende. So these blocks are called muscovite-quartz-hornblende schist.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-e0d4f2c8-52c9"
+        },
+        {
+          "stopTag": 53,
+          "stopTitle": "Dubino",
+          "stopDate": "09/24/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This stop is located on the exposure of the Pediatric Lineament with non-exposure. The mountains show linearity in the E-W direction. North from here is pro-wedge, while the south side is retro-wedge. Pediatric Lineament has 700 km llength in total with around 10 km of depth. The maximum displacement is 30 to 100 km with dextral shear sense. Counter-clockwise rotation of the Adriatic Plate is started on late Oligocene.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-9a7a1daf-f06e"
+        },
+        {
+          "stopTag": 54,
+          "stopTitle": "",
+          "stopDate": "09/25/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            { "textBlock": "", "contentUrl": "", "contentDescription": "" },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-b6b10555-2785"
+        },
+        {
+          "stopTag": 55,
+          "stopTitle": "Montorfano",
+          "stopDate": "09/25/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This stop is on a quarry and there were big granite blocks extracted. This intrusion is related to the breaking apart of the Pangea. No foliation or lineation was seen. Granites composed of biotite (black grains), quartz and feldspar. The depth these rocks intruded was in the order of 15-20 km representing the middle crust determined by amphibolite facies.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-525c219b-55e3"
+        },
+        {
+          "stopTag": 56,
+          "stopTitle": "Crevola",
+          "stopDate": "09/25/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This river bed was full of block sized, wel-rounded various rocks. One of the rocks observed wasa a gabro block consisting pseudotachylite. It is the product of frictional melting process and belongs to the Insubric line.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "Approximately 200 meters west of the first observation, there is an outcrop formed by foliated metamorphic rocks (Figure 2.24a). White layers are composed of feldspar and quartz, while the darker layers are composed of mafic minerals. The folds formed by white bands are called interfoliation fold (Figure 2.24b). These rocks are amphibolite face metamorphic rocks that have experienced ductile deformation, and called migmatite. This location is on the ibrea zone which is originated in lower crust (around 25 km depth). The findings show that if we go to the west we will reach MOHO and if we go to the east, we will reach crustal rocks.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-54237398-5a6d"
+        },
+        {
+          "stopTag": 57,
+          "stopTitle": "Sacro Monte",
+          "stopDate": "09/25/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop composes diorites containing biotite, black hornblend, quartz, feldspar, and garnet meaning that these rocks have deeper origins than the ones at the previous stop. These rocks belong to upper-most part of a huge mantle plume in the lower crust. Also we observed xenoliths that can be used to determine the rocks origin.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-c6ba617f-1c82"
+        },
+        {
+          "stopTag": 58,
+          "stopTitle": "Isola",
+          "stopDate": "09/25/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop exposes metagabros containing pyroxene and anorthite-rich plagioclase. These rocks are named as metagabros due to their metamorphic overprint. We were still moving in an easterly direction, meaning that the origin of the rocks is getting deeper. After reaching the river there are black-colored peridotites consisting of olivine, garnet, anorthite, and pyroxene. Since the peridotite is a mantle rock, we passed MOHO by walking from metagabros to the peridotite (Figure 2.25).",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-ffa8318c-3902"
+        },
+        {
+          "stopTag": 59,
+          "stopTitle": "Scopello",
+          "stopDate": "09/25/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "There are strongly foliated greenschists containing albite, quartz, chlorite, pyrite, and biotite with the orientation of 269/55. The sudden change to the greenschists indicates that these rocks are related to the Insubric Line. There is the back thrusting of the Penninicum.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-a355dc99-6fee"
+        },
+        {
+          "stopTag": 60,
+          "stopTitle": "Balmuccia",
+          "stopDate": "09/26/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "This outcrop again exposes the peridotites. Red colors correspond to weathered surfaces, while the fresh surface is having dark colors. Peridodites in this crop were cut by a vein containing chrome dioxide and lherzolite.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-85422b7b-7ec0"
+        },
+        {
+          "stopTag": 61,
+          "stopTitle": "Profile of the Field Trip",
+          "stopDate": "09/26/2019",
+          "stopSummary": "",
+          "mainImage": "",
+          "stopContent": [
+            {
+              "textBlock": "In conclusion, we drew the profile we observed during this 10-day field trip (fig:profile). The Alps are formed by and subduction driven orogeny. The subduction occurs from the north through the south causing overthrusts from the south through the north. If we connect the peaks of the mountain range, we can easily observe the critical taper angle and its linearity for both pro-wedge and the retro-wedge.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            {
+              "textBlock": "During this field trip, we observed Jura Mountains, Molasse Basin, Helveticum, Penninicum, and South Alpine, respectively while cutting the ridges from the north to the south.",
+              "contentUrl": "",
+              "contentDescription": ""
+            },
+            { "contentUrl": "", "contentDescription": "" }
+          ],
+          "stopImages": [{ "imageUrl": "", "imageDescription": "" }],
+          "stopId": "stop-da55e67a-6835"
         }
       ],
-      "tripId": "trip-c6e996aa-c023"
+      "tripId": "trip-7acf231b-b8f9"
     }
   ]
 }

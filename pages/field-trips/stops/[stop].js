@@ -9,6 +9,7 @@ import {
   filterForObject
 } from "../../../utils/helperFunctions";
 import Loading from "../../../comps/loading";
+import GridGallery from "../../../comps/gridGallery";
 
 export default function Stops() {
   const payload = useContext(PayloadContext);
@@ -67,6 +68,12 @@ export default function Stops() {
                   </React.Fragment>
                 );
               })}
+            </div>
+          </section>
+          <section className="bx--grid">
+            <div className="main-center-gang">
+              <h4>Images from Stop</h4>
+              <GridGallery photos={stopImages} />
             </div>
           </section>
         </Layout>

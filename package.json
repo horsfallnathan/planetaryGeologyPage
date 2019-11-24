@@ -21,6 +21,8 @@
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-images": "^1.0.0",
+    "react-photo-gallery": "^8.0.0",
     "styled-components": "^4.4.1"
   }
 }
