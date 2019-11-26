@@ -5,7 +5,7 @@
   ],
   "logo": "./public/logo.svg",
   "hauptBanner": {
-    "hauptImg": "https://res.cloudinary.com/nthnh/image/upload/v1573836155/knkmann/bg1_beids7.png",
+    "hauptImg": "https://res.cloudinary.com/nthnh/image/upload/v1574779409/knkmann/bg1_beids7.png",
     "bannerTitle": "Planetary Group",
     "bannerText": "The rock mechanics and planetary group of the Institute of Geology, Albert Ludwigs Universität, Freiburg"
   },
@@ -33,7 +33,7 @@
       "articleSummary": "Learn more about the Planetary Group at the University of Freiburg"
     }
   ],
-  "fieldTripBanner": "https://res.cloudinary.com/nthnh/image/upload/v1573836155/knkmann/bg1_beids7.png",
+  "fieldTripBanner": "https://res.cloudinary.com/nthnh/image/upload/v1574779409/knkmann/bg1_beids7.png",
   "contactDetails": {
     "contact": {
       "contactText": "To learn more about the Planetary Geology group at the University of Freiburg, or on how to participate in any trip, send a mail to Prof. Kenkmann",
@@ -50,7 +50,7 @@
       "tripStart": "",
       "tripEnd": "",
       "bannerImages": [
-        "https://res.cloudinary.com/nthnh/image/upload/v1573836155/knkmann/bg1_beids7.png"
+        "https://res.cloudinary.com/nthnh/image/upload/v1574779409/knkmann/bg1_beids7.png"
       ],
       "mainImage": "https://res.cloudinary.com/nthnh/image/upload/v1574199624/knkmann/iceLand/2j_ikssls.jpg",
       "tripSummary": "Beginning at the fracture that separates the American and European plates, we studied the rows of cinder cones at Stampar, stopped at Valahnjúkur, Vatnsfell, Gunnuhver and other Geologically interesting points.",
@@ -682,7 +682,7 @@
       "tripStart": "09/17/2019",
       "tripEnd": "09/26/2019",
       "bannerImages": [
-        "https://res.cloudinary.com/nthnh/image/upload/v1573836155/knkmann/bg1_beids7.png"
+        "https://res.cloudinary.com/nthnh/image/upload/v1574779409/knkmann/bg1_beids7.png"
       ],
       "mainImage": "https://res.cloudinary.com/nthnh/image/upload/v1574152998/knkmann/alpsTrip/Main%20Image.jpg",
       "tripSummary": "This is the summary of the first trip out of many",

@@ -7,10 +7,61 @@ $css--use-layer: true;
 $css--reset: true;
 $css--typography: true;
 $css--plex: true;
-$ui-01: #ffffff;
-$ui-02: red;
-$ui-background: red;
-$shell-header-bg-01: red;
+
+//// _theme-tokens.scss
+// White theme tokens
+$interactive-01: #014a99 !default;
+$interactive-02: #c1002a !default;
+$interactive-03: #014a99 !default;
+$interactive-04: #014a99 !default;
+$ui-background: #ffffff !default;
+$ui-01: #f3f3f3 !default;
+$ui-02: #ffffff !default;
+$ui-03: #dcdcdc !default;
+$ui-04: #c1002a !default;
+$ui-05: #c1002a !default;
+$text-01: #c1002a !default;
+$text-02: #565656 !default;
+$text-03: #c1002a !default;
+$text-04: #ffffff !default;
+$icon-01: #c1002a !default;
+$icon-02: #565656 !default;
+$icon-03: #ffffff !default;
+$link-01: #014a99 !default;
+$field-01: #f3f3f3 !default;
+$field-02: #ffffff !default;
+$inverse-01: #ffffff !default;
+$inverse-02: #3d3d3d !default;
+$support-01: #da1e28 !default;
+$support-02: #24a148 !default;
+$support-03: #fdd13a !default;
+$support-04: #054ada !default;
+$overlay-01: rgba(23, 23, 23, 0.5) !default;
+$focus: #014a99 !default;
+$hover-primary: #0353e9 !default;
+$active-primary: #0530ad !default;
+$hover-primary-text: #054ada !default;
+$hover-secondary: #4c4c4c !default;
+$active-secondary: #6f6f6f !default;
+$hover-tertiary: #0353e9 !default;
+$active-tertiary: #0530ad !default;
+$hover-ui: #e5e5e5 !default;
+$active-ui: #bebebe !default;
+$selected-ui: #dcdcdc !default;
+$hover-selected-ui: #cacaca !default;
+$hover-danger: #ba1b23 !default;
+$active-danger: #750e13 !default;
+$hover-row: #e5e5e5 !default;
+$visited-link: #8a3ffc !default;
+$disabled-01: #f3f3f3 !default;
+$disabled-02: #bebebe !default;
+$disabled-03: #c1002a !default;
+$highlight: #c9deff !default;
+$brand-01: #014a99 !default;
+$brand-02: #c1002a !default;
+$brand-03: #014a99 !default;
+$active-01: #bebebe !default;
+$hover-field: #e5e5e5 !default;
 
 @mixin ntmax {
   @media (min-width: 99rem) {
@@ -91,9 +142,7 @@ main {
   @extend .bx--grid;
   height: 4rem;
 }
-// a.bx--header__name {
-//   padding: 1rem 2rem 1rem 0;
-// }
+
 .haupt-banner {
   // @extend .bx--grid;
   height: 300px;
@@ -133,31 +182,21 @@ h4 {
   @extend .bx--col-lg-8;
   margin-right: 0;
   margin-left: auto;
-  // padding: 0;
-  // & p {
-  //   padding: $spacing-04 0;
-  // }
 }
 .main-center-gang {
   @extend .bx--col-lg-8;
   margin-right: auto;
   margin-left: auto;
-  // padding: 0;
-  // & p {
-  //   padding: $spacing-04 0;
-  // }
 }
 .full-width-gang {
   @extend .bx--row;
   margin-left: auto;
   margin-right: auto;
-  // padding: 0;
 }
 .left-content-gang {
   @extend .bx--col-lg-4;
   margin-left: 0;
   margin-right: auto;
-  // padding: 0;
 }
 .mini-left-content-gang {
   @extend .bx--col-lg-3;
@@ -191,7 +230,7 @@ section {
 }
 .news-content-tile {
   padding: 1rem 0;
-  border: 1px solid $interactive-01;
+  // border: 1px solid $interactive-01;
 }
 
 $pLineHeight: 1.5rem;
@@ -236,3 +275,100 @@ $bgColor: $ui-01;
 .news-summary {
   @include multiLineEllipsis($pLineHeight: 1.5rem, $pLineCount: 3);
 }
+
+// Overwrite for header and panel
+.bx--header {
+  background-color: $brand-01;
+  border-bottom: $interactive-02;
+}
+
+.bx--header__name {
+  color: $ui-02;
+}
+.bx--header__menu-trigger {
+  fill: $ui-02;
+  &:hover {
+    background-color: $interactive-02;
+  }
+  &:focus {
+    border: white;
+  }
+  &:active {
+    background-color: $interactive-02;
+  }
+}
+.bx--header__nav::before {
+  border: $interactive-02;
+  background-color: $ui-02;
+}
+
+a.bx--header__menu-item[role="menuitem"] {
+  color: $ui-02;
+  & svg {
+    color: $ui-02;
+  }
+  &:hover {
+    background-color: $hover-primary;
+    color: $ui-02;
+  }
+  &:focus {
+    border: $ui-02;
+  }
+  &:active {
+    background-color: $hover-primary;
+  }
+}
+.bx--header__action {
+  fill: $ui-02;
+  background-color: $ui-05;
+  &:hover {
+    background-color: $ui-05;
+    fill: $ui-02;
+  }
+  &:active {
+    background-color: $ui-05;
+    fill: $ui-02;
+  }
+}
+
+.bx--header-panel {
+  background-color: $ui-01;
+  border-left: $brand-02;
+}
+.bx--header__action--active {
+  border-left: $ui-02;
+  border-right: $ui-02;
+}
+
+.bx--switcher__item {
+  color: $ui-02;
+  &:hover {
+    background-color: $brand-01;
+    color: $ui-02;
+  }
+  &:focus {
+    border: none;
+  }
+  &:active {
+    background-color: $hover-primary;
+  }
+}
+.bx--switcher__item-link {
+  color: $brand-01;
+  &:hover:not(.bx--switcher__item-link--selected) {
+    background-color: $brand-01;
+    color: $ui-02;
+  }
+  &:focus {
+    border: none;
+  }
+  &:active {
+    background-color: $hover-primary;
+  }
+}
+
+// .bx--switcher__item:focus	border	White
+// .bx--switcher__item:active	background color	Gray 80
+// .bx--switcher__item:active	text color	Gray 10
+// .bx--switcher__item-link--selected	background color	Gray 90
+// .bx--switcher__item-link--selected	text color	Gray 10
