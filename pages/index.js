@@ -58,7 +58,7 @@ export default function StartPage() {
           );
         })}
       </section>
-      <section>
+      {/* <section>
         <div className="bx--grid">
           <div className="main-content-gang">
             <h3>News:</h3>
@@ -79,7 +79,7 @@ export default function StartPage() {
             </article>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 }

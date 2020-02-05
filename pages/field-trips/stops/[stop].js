@@ -57,25 +57,31 @@ export default function Stops() {
               {stopContent.map(content => {
                 return (
                   <React.Fragment key={getUniqueID()}>
-                    <p>{content.textBlock && content.textBlock}</p>
-                    <img
-                      className="content-image"
-                      src={content.contentUrl && content.contentUrl}
-                    />
-                    <p>
-                      {content.contentDescription && content.contentDescription}
+                    <p isfor="stopText">
+                      {content.textBlock && content.textBlock}
                     </p>
+                    {content.contentUrl && (
+                      <div className="content-image">
+                        <img src={content.contentUrl && content.contentUrl} />
+                        <em>
+                          {content.contentDescription &&
+                            content.contentDescription}
+                        </em>
+                      </div>
+                    )}
                   </React.Fragment>
                 );
               })}
             </div>
           </section>
-          <section className="bx--grid">
-            <div className="main-center-gang">
-              <h4>Images from Stop</h4>
-              <GridGallery photos={stopImages} />
-            </div>
-          </section>
+          {stopImages && (
+            <section className="bx--grid">
+              <div className="main-center-gang">
+                <h4>Images from Stop</h4>
+                <GridGallery photos={stopImages} />
+              </div>
+            </section>
+          )}
         </Layout>
       )}
     </>
