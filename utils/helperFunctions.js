@@ -1,3 +1,5 @@
+import React from 'react'
+
 const getUniqueID = () => {
   const s4 = () =>
     Math.floor((1 + Math.random()) * 0x10000)
@@ -15,7 +17,7 @@ const checkForUndefined = input => {
 function findVal(object, key, count = 0, finalCount = 200) {
   let value;
   if (count !== finalCount) {
-    Object.keys(object).some(function(k) {
+    Object.keys(object).some(function (k) {
       if (k === key) {
         value = object[k];
         return true;
@@ -53,13 +55,15 @@ const cropText = (fullText, classN = "") => {
       }
     })
     .join(" ");
-  return { __html: `<p className={${classN}}>${text}</p>` };
+
+  return React.createElement('p', { className: classN }, text)
 };
 
-const getSummaryText = itemObject => {
+const getSummaryText = (itemObject, classN = '') => {
   const stopSum = itemObject.stopSummary || "";
   const adhocSum = itemObject.stopContent[0].textBlock;
-  const summaryText = stopSum !== "" ? cropText(stopSum) : cropText(adhocSum);
+  // const summaryText = stopSum !== "" ? cropText('lfkjhggs') : cropText('ksjhfgjrt');
+  const summaryText = stopSum !== "" ? cropText(stopSum, classN) : cropText(adhocSum, classN);
   return summaryText;
 };
 

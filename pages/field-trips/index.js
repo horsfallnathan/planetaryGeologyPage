@@ -53,7 +53,7 @@ export default function FieldTrips() {
                 newsObject={trip}
                 imageUrl="mainImage"
                 title="tripTitle"
-                summary={cropText(trip.tripSummary)}
+                summary={cropText(trip.tripSummary, 'news-content-text')}
                 tripDates={`${trip.tripStart} - ${trip.tripEnd}`}
                 newsLink={`field-trips/${trip.tripId}`}
               />

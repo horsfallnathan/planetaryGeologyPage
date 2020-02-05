@@ -4,7 +4,7 @@ import Layout from "./layout";
 export default function Loading() {
   return (
     <Layout>
-      <div
+      {/* <div
         data-inline-loading
         className="bx--inline-loading"
         role="alert"
@@ -83,7 +83,7 @@ export default function Loading() {
         >
           Loading data failed.
         </p>
-      </div>
+      </div> */}
     </Layout>
   );
 }

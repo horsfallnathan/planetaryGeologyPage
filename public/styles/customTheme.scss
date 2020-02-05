@@ -386,8 +386,18 @@ a.bx--header__menu-item[role="menuitem"] {
   }
 }
 
-// .bx--switcher__item:focus	border	White
-// .bx--switcher__item:active	background color	Gray 80
-// .bx--switcher__item:active	text color	Gray 10
-// .bx--switcher__item-link--selected	background color	Gray 90
-// .bx--switcher__item-link--selected	text color	Gray 10
+[role='pagination'] {
+  // display: flex;
+  // flex-direction: column;
+  // margin: 2em 0;
+  & button { 
+    width: 2em;
+    height: 2em;
+    // display: inline-block;
+    padding: .3em .5em;
+    line-height: 1em;
+    &[status='active']{
+      background-color: $ui-04;
+    }
+  }
+}

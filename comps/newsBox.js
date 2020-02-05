@@ -35,7 +35,7 @@ export default function NewsBox(props) {
         .news-img {
           background: url(${findVal(newsObject, imageUrl)});
           background-size: cover;
-          background-position: center;
+          background-position: center; 
           min-height: 130px;
         }
       `}</style>
@@ -46,10 +46,7 @@ export default function NewsBox(props) {
             : externalButton(newsLink, findVal(newsObject, title))}
         </div>
         <em className="newsDate">{tripDates}</em>
-        <div
-          className="news-content-text"
-          dangerouslySetInnerHTML={summary}
-        ></div>
+        {summary}
       </Tile>
     </React.Fragment>
   );

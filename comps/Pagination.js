@@ -1,23 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 
-export const Pagination = ({ postsPerPage, totalPosts }) => {
+export const Pagination = ({ postsPerPage, totalPosts, changePage, activePage }) => {
   const pageNumbers = [];
   for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
     pageNumbers.push(i);
   }
   return (
-    <div>
-      {pageNumbers.map(number => {
-        return (
-          <nav>
-            <ul>
-              <li className="page">
-                <a href="!#">{number}</a>
-              </li>
-            </ul>
-          </nav>
-        );
+    <nav role='pagination'>
+      {pageNumbers.map((numb, i) => {
+        return <button onClick={() => changePage(numb)} key={`pagination-${i}`} status={activePage === numb ? 'active' : 'inactive'} className="bx--btn bx--btn--primary bx--btn--sm">{numb}</button>
       })}
-    </div>
+    </nav>
   );
 };
