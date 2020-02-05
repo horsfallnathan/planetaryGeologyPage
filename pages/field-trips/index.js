@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { PayloadContext } from "../../comps/payloadContext";
 import Layout from "../../comps/layout.js";
 import NewsBox from "../../comps/newsBox.js";
-import { getUniqueID } from "../../utils/helperFunctions";
+import { getUniqueID, cropText, findVal } from "../../utils/helperFunctions";
 import SearchBar from "../../comps/searchBar";
 
 export default function FieldTrips() {
@@ -53,7 +53,8 @@ export default function FieldTrips() {
                 newsObject={trip}
                 imageUrl="mainImage"
                 title="tripTitle"
-                summary="tripSummary"
+                summary={cropText(trip.tripSummary)}
+                tripDates={`${trip.tripStart} - ${trip.tripEnd}`}
                 newsLink={`field-trips/${trip.tripId}`}
               />
             </div>

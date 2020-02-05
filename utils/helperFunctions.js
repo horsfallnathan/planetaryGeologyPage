@@ -40,4 +40,34 @@ const filterForObject = (rawObject, queryKey, queryValue) => {
   return filteredObject[0];
 };
 
-export { getUniqueID, checkForUndefined, findVal, filterForObject };
+const cropText = (fullText, classN = "") => {
+  const text = fullText
+    .split(" ")
+    .map((txt, i) => {
+      if (i === 14) {
+        return `${txt}...`;
+      } else if (i >= 15) {
+        return null;
+      } else {
+        return txt;
+      }
+    })
+    .join(" ");
+  return { __html: `<p className={${classN}}>${text}</p>` };
+};
+
+const getSummaryText = itemObject => {
+  const stopSum = itemObject.stopSummary || "";
+  const adhocSum = itemObject.stopContent[0].textBlock;
+  const summaryText = stopSum !== "" ? cropText(stopSum) : cropText(adhocSum);
+  return summaryText;
+};
+
+export {
+  getUniqueID,
+  checkForUndefined,
+  findVal,
+  getSummaryText,
+  filterForObject,
+  cropText
+};

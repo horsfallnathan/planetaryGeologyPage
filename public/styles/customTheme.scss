@@ -64,7 +64,7 @@ $active-01: #bebebe !default;
 $hover-field: #e5e5e5 !default;
 
 @mixin ntmax {
-  @media (min-width: 99rem) {
+  @media (min-width: 99em) {
     @content;
   }
 }
@@ -87,17 +87,18 @@ $hover-field: #e5e5e5 !default;
 @import "../../node_modules/carbon-components/scss/components/button/button";
 @import "../../node_modules/carbon-components/scss/components/inline-loading/inline-loading";
 @import "../../node_modules/carbon-components/scss/components/search/search";
+@import "../../node_modules/carbon-components/scss/components/pagination-nav/pagination-nav";
 
 .page-logo {
-  height: 2.5rem;
+  height: 2.5em;
   width: auto;
 }
 .menu-bar {
-  padding-top: 1rem;
+  padding-top: 1em;
 }
 
 main {
-  margin: 4rem 0;
+  margin: 4em 0;
 }
 // section {
 //   @extend .bx--grid;
@@ -123,13 +124,13 @@ main {
 .bx-img {
   width: 100%;
 }
-@media (min-width: 66rem) {
+@media (min-width: 66em) {
   .container .bx--grid {
-    padding-left: calc(12.5% + 1rem);
-    padding-right: calc(12.5% + 1rem);
+    padding-left: calc(12.5% + 1em);
+    padding-right: calc(12.5% + 1em);
   }
 }
-@media (min-width: 99rem) {
+@media (min-width: 99em) {
   .container .bx--grid {
     padding-left: 200px;
     padding-right: 200px;
@@ -140,7 +141,7 @@ main {
 }
 .bx--header {
   @extend .bx--grid;
-  height: 4rem;
+  height: 4em;
 }
 
 .haupt-banner {
@@ -182,6 +183,14 @@ h4 {
   @extend .bx--col-lg-8;
   margin-right: 0;
   margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  &.left {
+    margin-left: 0;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 .main-center-gang {
   @extend .bx--col-lg-8;
@@ -198,12 +207,23 @@ h4 {
   margin-left: 0;
   margin-right: auto;
 }
+.right-content-gang {
+  @extend .bx--col-lg-4;
+  margin-right: 0;
+  margin-left: auto;
+  padding-left: 0;
+}
 .mini-left-content-gang {
   @extend .bx--col-lg-3;
   margin-left: 0;
   margin-right: auto;
   // padding: 0;
 }
+.stopTitleSection {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 article {
   padding-bottom: $layout-02;
 }
@@ -211,70 +231,69 @@ section {
   padding-top: $layout-04;
 }
 .content-image {
-  width: auto;
-  max-height: 300px;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  margin-top: 1.5em;
+  & img {
+    width: auto;
+    max-height: 300px;
+  }
+  & em {
+    display: block;
+    margin-bottom: 1.5em;
+    margin-top: 0.5em;
+    font-size: 80%;
+  }
+}
+p[isfor="stopText"] {
+  margin-bottom: 1em;
 }
 .menu-button {
   @extend .bx--header__action;
-  width: 4rem;
-  height: 4rem;
+  width: 4em;
+  height: 4em;
 }
 .nav-panel {
   @extend .bx--header-panel;
-  top: 4rem;
+  top: 4em;
   & li:first-of-type {
-    margin-top: 1rem;
+    margin-top: 1em;
   }
 }
 .news-content-tile {
-  padding: 1rem 0;
+  padding: 1em 0;
   // border: 1px solid $interactive-01;
 }
 
-$pLineHeight: 1.5rem;
+$pLineHeight: 1.5em;
 $pLineCount: 1;
 $bgColor: $ui-01;
 
 .news-content-text {
   height: $pLineHeight * 4;
-  margin: $spacing-04 0;
-  padding: 0.5rem 1rem;
+  margin: 0 0 $spacing-04 0;
+  padding: 0.5em 1em;
 }
 
 .news-content-title {
   height: $pLineHeight * 2;
-  padding: 0 1rem;
+  padding: 0 1em;
 }
-@mixin multiLineEllipsis($pLineHeight, $pLineCount) {
-  overflow: hidden;
-  position: relative;
-  line-height: $pLineHeight;
-  max-height: $pLineHeight * $pLineCount;
-  text-justify: auto;
-  text-align: justify;
-  margin-right: -1rem;
-  padding-right: 1rem;
-  &:before {
-    content: "...";
-    position: absolute;
-    right: 0;
-    bottom: 0;
-  }
-  &:after {
-    content: "";
-    position: absolute;
-    right: 0;
-    width: 1rem;
-    height: 1rem;
-    margin-top: 0.2rem;
-    background: $ui-01;
-  }
+.newsLink {
+  @extend h5;
+  color: $interactive-01;
+  text-decoration: none;
 }
-.news-summary {
-  @include multiLineEllipsis($pLineHeight: 1.5rem, $pLineCount: 3);
+.newsDate {
+  padding: 0.5em 1em;
+  font-size: 90%;
 }
+.tripDates {
+  font-size: 80%;
+  opacity: 0.8;
+}
+// .news-summary {
+//   @include multiLineEllipsis($pLineHeight: 1.5em, $pLineCount: 3);
+// }
 
 // Overwrite for header and panel
 .bx--header {
